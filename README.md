@@ -34,33 +34,25 @@ airline.
 - **tweet location**: location from where the tweet was posted. It is a categorical feature.
 - **user timezone**: categorical string that indicates the timezone of the user.
 
-$$
-\begin{table}[!t]
-\centering
-\begin{tabular}{|c|c|}
-\hline
-\textbf{Feature}               & \textbf{Numb. missing values} \\ \hline
-tweet\_id                      & 0                             \\ \hline
-airline\_sentiment             & 0                             \\ \hline
-airline\_sentiment\_confidence & 0                             \\ \hline
-negativereason                 & 5462                          \\ \hline
-negativereason\_confidence     & 4118                          \\ \hline
-airline                        & 0                             \\ \hline
-airline\_sentiment\_gold       & 14600                         \\ \hline
-name                           & 0                             \\ \hline
-negativereason\_gold           & 14608                         \\ \hline
-retweet\_count                 & 0                             \\ \hline
-text                           & 0                             \\ \hline
-tweet\_coord                   & 13621                         \\ \hline
-tweet\_created                 & 0                             \\ \hline
-tweet\_location                & 4733                          \\ \hline
-user\_timezone                 & 4820                          \\ \hline
-\end{tabular}
-\caption{Missing values per feature.}
-\label{Tab: tab1}
-\end{table}
 
-$$
+|**Feature**| **Numb. missing values** |
+|:--------:|---------:|
+| tweet_id                      | 0 |
+| airline_sentiment             | 0 |
+| airline_sentiment_confidence  | 0  |                          
+| negativereason                | 5462 |                        
+| negativereason_confidence     | 4118 |                        
+| airline                       | 0 |                           
+| airline_sentiment_gold       | 14600 |                        
+| name                           | 0 |                           
+| negativereason_gold           | 14608 |                        
+| retweet_count                 | 0 |                            
+| text                           | 0 |                           
+| tweet_coord                   | 13621 |                        
+| tweet_created                 | 0 |                            
+| tweet_location                | 4733 |                         
+| user_timezone                 | 4820 |                         
+
 ## Methodology
 A description of the machine learning techniques used in the project, including any libraries or frameworks that were utilized.
 
