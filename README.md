@@ -7,8 +7,6 @@ This repository contains the code for the project of Machine Learning D, course 
 ### Project Description
 In this project, I developed a model that is able to classify the sentiments of Twitter’s tweet about US airlines. This task is
 well known as **sentiment analysis**. It consists determining whether a given text contains _negative_, _positive_, or _neutral_ emotions.
-It is widespread that customers tweet about their satisfaction or disappointment after a flight. There can be multiple reasons
-behind the emotion such as bad flight, booking problems or customer service issues.
 
 ### Data
 The data set used in this **supervised** task was downloaded from Kaggle [1]. It contains tweets on six major United States
