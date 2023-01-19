@@ -33,25 +33,23 @@ airline.
 - **user timezone**: categorical string that indicates the timezone of the user.
 
 <center>
-  
-|**Feature**| **Numb. missing values** |
-|:--------:|---------:|
-| tweet_id                      | 0 |
-| airline_sentiment             | 0 |
-| airline_sentiment_confidence  | 0  |                          
-| negativereason                | 5462 |                        
-| negativereason_confidence     | 4118 |                        
-| airline                       | 0 |                           
-| airline_sentiment_gold       | 14600 |                        
-| name                           | 0 |                           
-| negativereason_gold           | 14608 |                        
-| retweet_count                 | 0 |                            
-| text                           | 0 |                           
-| tweet_coord                   | 13621 |                        
-| tweet_created                 | 0 |                            
-| tweet_location                | 4733 |                         
-| user_timezone                 | 4820 |                         
-
+|         **Features**         | **Nr. missing values** |
+|:----------------------------:|:----------------------:|
+|           tweet_id           |            0           |
+|       airline_sentiment      |            0           |
+| airline_sentiment_confidence |            0           |
+|        negativereason        |          5462          |
+|   negativereason_confidence  |          4118          |
+|            airline           |            0           |
+|    airline_sentiment_gold    |          14600         |
+|             name             |            0           |
+|      negativereason_gold     |          14608         |
+|         retweet_count        |            0           |
+|             text             |            0           |
+|          tweet_coord         |          13621         |
+|         tweet_created        |            0           |
+|        tweet_location        |          4733          |
+|         user_timezone        |          4820          |                 
 </center>
 
 ### Methodology
