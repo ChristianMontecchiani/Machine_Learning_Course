@@ -59,7 +59,7 @@ airline.
 ### Methodology
 The preprocessing step is the core phase of the entire analysis. We performed the selection, transformation and creation of
 the features:
--A. #### Feature Selection
+#### -A. Feature Selection
 As it is anticipated in the previous section in our data set there are columns with some missing value, but fortunately the
 absence of these values is not critical in order to perform our task. We drop these features and we also drop some features
 that have a very low correlation with the label, because they are not useful for the analysis.
@@ -70,7 +70,7 @@ At the end of the feature selection process, the data set is composed by just 4 
 - **tweet created**: as it shown in article [2] there are temporal patterns of happiness in social network, so we decided to use
 this feature.
 
--B.  #### Feature Transformation
+####  -B.  #### Feature Transformation
 In this subsection we will describe the feature transformation process.
   1) As described in section II the label, airline sentiment is represented by a string. It is converted in an integer value.
   2) The airline feature is a categorical value that assumes 6 values and we use the one-hot-encoding [3] technique to use it.
