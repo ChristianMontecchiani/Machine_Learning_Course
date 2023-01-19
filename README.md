@@ -35,6 +35,7 @@ airline.
 - **user timezone**: categorical string that indicates the timezone of the user.
 
 <center>
+  
 |**Feature**| **Numb. missing values** |
 |:--------:|---------:|
 | tweet_id                      | 0 |
