@@ -111,10 +111,13 @@ airline.
 ### Methodology
 The preprocessing step is the core phase of the entire analysis. We performed the selection, transformation and creation of
 the features:
+
+<div align="center">
+   <img width="500px" height="auto" src="https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/schema.png"> 
+ </div>
+
 #### A. Feature Selection
-As it is anticipated in the previous section in our data set there are columns with some missing value, but fortunately the
-absence of these values is not critical in order to perform our task. We drop these features and we also drop some features
-that have a very low correlation with the label, because they are not useful for the analysis.
+I dropped some features that have a very low correlation with the label, so they are not useful for the analysis.
 At the end of the feature selection process, the data set is composed by just 4 features, which are:
 - **airline sentiment**: it represents the target and it is fundamental for the task.
 - **airline**: it is correlated with the label.
@@ -124,19 +127,17 @@ this feature.
 
 #### B. Feature Transformation
 In this subsection we will describe the ***feature transformation process***.
-  1) As described in section II the label, airline sentiment is represented by a *string*. It is converted in an integer value.
-  2) The airline feature is a categorical value that assumes 6 values and we use the one-hot-encoding [3] technique to use it.
+  1) Airline sentiment is converted in an *integer* value.
+  2) The airline feature is a *categorical* so I used the one-hot-encoding technique.
   3) The date is encoded as a string with the format:
                                 $$YYYY − MM − DD\ hour : min : sec$$
-  So we convert them in timestamp with the help of datetime library.
-  4) Finally, text cleaning is performed. Different elements characterize a Twitter post and for a correct analysis we need
-  to know all. The text is encoded in UTF-8, but some symbols are in HTML entities. We clean up HTML entities, we
-  lowered the case of each tweet and transform emoticon and slang-terms into clear words; we remove numbers and replace
-  repeated characters. Fig. 1 shows a summary of the text clean that we did.
-  
-  <div align="center">
+  4) Finally, text cleaning is performed:
+
+<div align="center">
    <img width="500px" height="auto" src="https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/schema.png"> 
-  </div>
+ </div>
+  
+  
 
 
 
