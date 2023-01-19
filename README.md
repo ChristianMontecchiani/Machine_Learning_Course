@@ -82,15 +82,12 @@ In this subsection we will describe the ***feature transformation process***.
   lowered the case of each tweet and transform emoticon and slang-terms into clear words; we remove numbers and replace
   repeated characters. Fig. 1 shows a summary of the text clean that we did.
   
-  <center>
   
-  
-  ![alt text](https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/schema.png "image title")
-  
-   Fig. 2: Overall schema of text cleaning.
-  
-  
-  </center>
+<p align="center">
+    <img width="200" src="[http://material-bread.org/logo-shadow.svg](https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/schema.png )" alt="Material Bread logo">
+</p>
+
+
   
 #### C. Feature Creation
 So after giving homogeneity to each tweet we carry on the analysis of the text. We applied TF-IDF [4] to extract the words
