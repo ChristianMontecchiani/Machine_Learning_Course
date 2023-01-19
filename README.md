@@ -32,29 +32,88 @@ airline.
 - **tweet location**: location from where the tweet was posted. It is a categorical feature.
 - **user timezone**: categorical string that indicates the timezone of the user.
 
-<center>
-  
-  
-|         **Features**         | **Nr. missing values** |
-|:----------------------------:|:----------------------:|
-|           tweet_id           |            0           |
-|       airline_sentiment      |            0           |
-| airline_sentiment_confidence |            0           |
-|        negativereason        |          5462          |
-|   negativereason_confidence  |          4118          |
-|            airline           |            0           |
-|    airline_sentiment_gold    |          14600         |
-|             name             |            0           |
-|      negativereason_gold     |          14608         |
-|         retweet_count        |            0           |
-|             text             |            0           |
-|          tweet_coord         |          13621         |
-|         tweet_created        |            0           |
-|        tweet_location        |          4733          |
-|         user_timezone        |          4820          |   
-  
-  
-</center>
+<div align="center">  
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow"><span style="font-weight:bold">**Features**</span></th>
+    <th class="tg-c3ow"><span style="font-weight:bold">**Nr. missing values**</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">tweet_id</td>
+    <td class="tg-c3ow">0</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">airline_sentiment</td>
+    <td class="tg-c3ow">0</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">airline_sentiment_confidence</td>
+    <td class="tg-c3ow">0</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">negativereason</td>
+    <td class="tg-c3ow">5462</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">negativereason_confidence</td>
+    <td class="tg-c3ow">4118</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">airline</td>
+    <td class="tg-c3ow">0</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">airline_sentiment_gold</td>
+    <td class="tg-c3ow">14600</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">name</td>
+    <td class="tg-c3ow">0</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">negativereason_gold</td>
+    <td class="tg-c3ow">14608</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">retweet_count</td>
+    <td class="tg-c3ow">0</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">text</td>
+    <td class="tg-c3ow">0</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">tweet_coord</td>
+    <td class="tg-c3ow">13621</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">tweet_created</td>
+    <td class="tg-c3ow">0</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">tweet_location</td>
+    <td class="tg-c3ow">4733</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">user_timezone</td>
+    <td class="tg-c3ow">4820</td>
+  </tr>
+</tbody>
+</table>
+ </div>
+
+
 
 ### Methodology
 The preprocessing step is the core phase of the entire analysis. We performed the selection, transformation and creation of
@@ -82,10 +141,12 @@ In this subsection we will describe the ***feature transformation process***.
   lowered the case of each tweet and transform emoticon and slang-terms into clear words; we remove numbers and replace
   repeated characters. Fig. 1 shows a summary of the text clean that we did.
   
-  
-<p align="center">
-    <img width="200" src="[http://material-bread.org/logo-shadow.svg](https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/schema.png )" alt="Material Bread logo">
-</p>
+  <div align="center">
+   <img width="500px" height="auto" src="https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/schema.png"> 
+  </div>
+
+
+
 
 
   
