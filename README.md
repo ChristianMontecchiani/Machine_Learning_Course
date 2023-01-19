@@ -2,7 +2,7 @@
 This repository contains the code for the project of Machine Learning D, course that I have done in AALTO University.
 
 
-## Project Title
+## Twitter US Airline Sentiment Analysis
 
 ### Project Description
 In this project, I developed a model that is able to classify the sentiments of Twitter’s tweet about US airlines. This task is
