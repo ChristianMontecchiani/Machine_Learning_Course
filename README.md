@@ -54,7 +54,7 @@ airline.
 | tweet_location                | 4733 |                         
 | user_timezone                 | 4820 |                         
 
-  </center>
+</center>
 
 ## Methodology
 A description of the machine learning techniques used in the project, including any libraries or frameworks that were utilized.
