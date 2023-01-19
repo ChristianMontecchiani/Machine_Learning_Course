@@ -34,6 +34,7 @@ airline.
 
 <center>
   
+  
 |         **Features**         | **Nr. missing values** |
 |:----------------------------:|:----------------------:|
 |           tweet_id           |            0           |
@@ -51,6 +52,7 @@ airline.
 |         tweet_created        |            0           |
 |        tweet_location        |          4733          |
 |         user_timezone        |          4820          |   
+  
   
 </center>
 
