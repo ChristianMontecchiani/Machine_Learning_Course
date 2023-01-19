@@ -72,7 +72,7 @@ this feature.
 
 #### B. Feature Transformation
 In this subsection we will describe the feature transformation process.
-  1) As described in section II the label, airline sentiment is represented by a string. It is converted in an integer value.
+  1) As described in section II the label, airline sentiment is represented by a *string*. It is converted in an integer value.
   2) The airline feature is a categorical value that assumes 6 values and we use the one-hot-encoding [3] technique to use it.
   3) The date is encoded as a string with the format:
                                 $$YYYY − MM − DD hour : min : sec$$
@@ -83,12 +83,13 @@ In this subsection we will describe the feature transformation process.
   repeated characters. Fig. 1 shows a summary of the text clean that we did.
   
   Fig. 2: Overall schema of text cleaning.
-  #### C. Feature Creation
-  So after giving homogeneity to each tweet we carry on the analysis of the text. We applied TF-IDF [4] to extract the words
-  of main relevance. TF-IDF is a technique very useful in text mining when we want to evaluate how much impact have a
-  word in a particular context. We mainly focused on all the words that could have such an impact towards one class of each
-  sentiment, in Fig. 3 are reported some of these words.
-  Moreover, we also created three different features given by a pre-trained neural network and we used them to train the models.
+  
+#### C. Feature Creation
+So after giving homogeneity to each tweet we carry on the analysis of the text. We applied TF-IDF [4] to extract the words
+of main relevance. TF-IDF is a technique very useful in text mining when we want to evaluate how much impact have a
+word in a particular context. We mainly focused on all the words that could have such an impact towards one class of each
+sentiment, in Fig. 3 are reported some of these words.
+Moreover, we also created three different features given by a pre-trained neural network and we used them to train the models.
 
 3
 These features represent the logarithm of the odds of a text to be classified with a positive, negative or neutral sentiment.
@@ -118,11 +119,24 @@ of fully connected layers. MLPs are useful in research for their ability to solv
 approximate solutions for extremely complex problems.
 
 
-## Results
-A summary of the project's main findings, including any relevant visualizations or statistical analyses.
+### Results
+A. Comparison between FastText and BERT
+We trained a Random Forest to compare the importance of the features created by the two Neural Networks. FastText’s
+logits are the top three features used by the decision trees of the forest to classify the sentiment of the text. So, we decided
+to use them.
+B. Training, Validation and Test Error
+Once the optimal combination of features was identified we went through two phases to show the results:
+- In the first phase, we have performed a simple grid search considering different combinations of parameters, shown in
+Table II. The best combination for each model is highlighted in the same Table. The models were trained with training
+set (60%) and tested with the validation set (20%). The results are shown in Table III.
+- In the second phase we trained the fine tuned models with a data set obtained by merging the training and validation sets.
+Then the algorithms were tested with the remaining 20% of the initial data (test set). The test error chosen is always
+F1-score for the same reasons specified above. The results are shown in Table IV.
 
-## Future Work
-A discussion of potential future directions for the project, including any planned improvements or additional features.
+### Future Work
+One possible future work could be to use BertForSequenceClassification, which is an improved version of the
+classic BERT and it is specialized in Sentiment Analysis. We did not use due to the limited computational resources of our
+personal computers.
 
 ## References
 A list of any sources that were referenced or used in the project.
