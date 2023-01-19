@@ -33,6 +33,7 @@ airline.
 - **user timezone**: categorical string that indicates the timezone of the user.
 
 <center>
+  
 |         **Features**         | **Nr. missing values** |
 |:----------------------------:|:----------------------:|
 |           tweet_id           |            0           |
@@ -49,7 +50,8 @@ airline.
 |          tweet_coord         |          13621         |
 |         tweet_created        |            0           |
 |        tweet_location        |          4733          |
-|         user_timezone        |          4820          |                 
+|         user_timezone        |          4820          |   
+  
 </center>
 
 ### Methodology
