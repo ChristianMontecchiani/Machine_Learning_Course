@@ -71,16 +71,17 @@ At the end of the feature selection process, the data set is composed by just 4 
 this feature.
 
 #### B. Feature Transformation
-In this subsection we will describe the feature transformation process.
+In this subsection we will describe the ***feature transformation process***.
   1) As described in section II the label, airline sentiment is represented by a *string*. It is converted in an integer value.
   2) The airline feature is a categorical value that assumes 6 values and we use the one-hot-encoding [3] technique to use it.
   3) The date is encoded as a string with the format:
-                                $$YYYY − MM − DD hour : min : sec$$
+                                $$YYYY − MM − DD\ hour : min : sec$$
   So we convert them in timestamp with the help of datetime library.
   4) Finally, text cleaning is performed. Different elements characterize a Twitter post and for a correct analysis we need
   to know all. The text is encoded in UTF-8, but some symbols are in HTML entities. We clean up HTML entities, we
   lowered the case of each tweet and transform emoticon and slang-terms into clear words; we remove numbers and replace
   repeated characters. Fig. 1 shows a summary of the text clean that we did.
+  
   
   Fig. 2: Overall schema of text cleaning.
   
