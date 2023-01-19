@@ -134,7 +134,7 @@ In this subsection we will describe the ***feature transformation process***.
   4) Finally, text cleaning is performed:
 
 <div align="center">
-   <img width="500px" height="auto" src="https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/schema.png"> 
+   <img width="500px" height="auto" src="https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/FinalPipeline%20(1).png"> 
  </div>
   
   
@@ -142,7 +142,7 @@ In this subsection we will describe the ***feature transformation process***.
 So after giving homogeneity to each tweet we carry on the analysis of the text. We applied TF-IDF to extract the words
 of main relevance. In the followinh Fig. are reported some of these words.
 <div align="center">
-   <img width="500px" height="auto" src="https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/schema.png"> 
+   <img width="500px" height="auto" src="https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/word_cloud%20(1).png"> 
  </div>
 Moreover, we also created three different features given by a pre-trained neural network and we used them to train the models.
 
