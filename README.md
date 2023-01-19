@@ -81,10 +81,15 @@ In this subsection we will describe the ***feature transformation process***.
   to know all. The text is encoded in UTF-8, but some symbols are in HTML entities. We clean up HTML entities, we
   lowered the case of each tweet and transform emoticon and slang-terms into clear words; we remove numbers and replace
   repeated characters. Fig. 1 shows a summary of the text clean that we did.
+  
   <center>
+  
+  
   ![alt text](https://github.com/ChristianMontecchiani/Machine_Learning_Course/blob/main/img/schema.png "image title")
   
    Fig. 2: Overall schema of text cleaning.
+  
+  
   </center>
   
 #### C. Feature Creation
