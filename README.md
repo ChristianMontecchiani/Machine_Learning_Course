@@ -34,7 +34,7 @@ airline.
 - **tweet location**: location from where the tweet was posted. It is a categorical feature.
 - **user timezone**: categorical string that indicates the timezone of the user.
 
-
+<div style="display: flex; justify-content: center;">
 |**Feature**| **Numb. missing values** |
 |:--------:|---------:|
 | tweet_id                      | 0 |
@@ -52,6 +52,7 @@ airline.
 | tweet_created                 | 0 |                            
 | tweet_location                | 4733 |                         
 | user_timezone                 | 4820 |                         
+</div>
 
 ## Methodology
 A description of the machine learning techniques used in the project, including any libraries or frameworks that were utilized.
