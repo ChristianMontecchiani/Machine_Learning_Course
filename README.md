@@ -34,6 +34,33 @@ airline.
 - **tweet location**: location from where the tweet was posted. It is a categorical feature.
 - **user timezone**: categorical string that indicates the timezone of the user.
 
+$$
+\begin{table}[!t]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Feature}               & \textbf{Numb. missing values} \\ \hline
+tweet\_id                      & 0                             \\ \hline
+airline\_sentiment             & 0                             \\ \hline
+airline\_sentiment\_confidence & 0                             \\ \hline
+negativereason                 & 5462                          \\ \hline
+negativereason\_confidence     & 4118                          \\ \hline
+airline                        & 0                             \\ \hline
+airline\_sentiment\_gold       & 14600                         \\ \hline
+name                           & 0                             \\ \hline
+negativereason\_gold           & 14608                         \\ \hline
+retweet\_count                 & 0                             \\ \hline
+text                           & 0                             \\ \hline
+tweet\_coord                   & 13621                         \\ \hline
+tweet\_created                 & 0                             \\ \hline
+tweet\_location                & 4733                          \\ \hline
+user\_timezone                 & 4820                          \\ \hline
+\end{tabular}
+\caption{Missing values per feature.}
+\label{Tab: tab1}
+\end{table}
+
+$$
 ## Methodology
 A description of the machine learning techniques used in the project, including any libraries or frameworks that were utilized.
 
